@@ -1,8 +1,8 @@
-\# IoT Sensor Data Collection \& Visualization (HTTP → InfluxDB → Grafana)
+IoT Sensor Data Collection \& Visualization (HTTP → InfluxDB → Grafana)
 
 
 
-\## Overview
+Overview
 
 This project simulates an IoT sensor device and sends telemetry (temperature, humidity) to InfluxDB via HTTP.
 
@@ -10,7 +10,7 @@ Grafana is used to visualize the data on a dashboard.
 
 
 
-\## Stack
+Stack
 
 \- Docker Compose
 
@@ -22,13 +22,13 @@ Grafana is used to visualize the data on a dashboard.
 
 
 
-\## Architecture
+Architecture
 
 Producer (Python) → HTTP write → InfluxDB (bucket: iot\_bucket, org: st2302) → Grafana dashboard
 
 
 
-\## Run
+Run
 
 1\) Create `.env` in project root (example keys):
 
